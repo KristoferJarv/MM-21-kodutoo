@@ -5,3 +5,33 @@ tahame teada kas ta on maksnud
 
 mida klient tahab
 Tooted ja laoseis
+
+Toode ja Kogus: 36 monitori, 36 klaviatuuri, 36 arvutihiirt, 8 lauda, 5 televiisorit, 2 kõlarit, 1 kell, 1 projektor, 1 tahvel,  
+Hind:           monitor = 10€, klaviatuur = 8€, arvutihiir = 2€ laud = 7€, televiisor = 5€, kõlar = 2€, kell = 6€, projektor = 11€, tahvel = 9€
+
+Toode       Kogus       Hind        Värv
+monitor     18          10          hall
+klaviatuur  36          8           must
+arvutihiir  36          2           must
+laud        4           7           kollane
+laud        4           10          pruun 
+televiisor  5           5           must
+kõlar       2           2           must
+kell        1           6           valge
+projektor   1           11          valge
+tahvel      1           9           valge
+
+
+
+
+product  fields: nimi, kogus, Hind
+product (field, attributes, properties, column)
+
+olemid (Entity) näiteks toode ja tellimus
+
+Tellimused:
+
+toode       kogus       Hind         Värv        ostja      laoseis    kohaleviimine  maksmine        koguhind      
+
+laud        2           7€           kollane    (tel nr)    olemas      kuller        internetipank   25€
+
