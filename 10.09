@@ -1,5 +1,8 @@
 string number boolean object   tüüp type
 
+// ctrl + K   ctrl + C  comment
+//ctrl + K 
+
 if else conditional
 {
 
@@ -8,15 +11,21 @@ if else conditional
 // Object on tüüp mis salvesta key-value paare.
 // key: value 
 let töötaja = {nimi: "Timo", palk: 10,}
-let töötaja = {
+let töötaja2 = {
   nimi: "Timo", 
   palk: 10,
 }
 
+// skoop scope
 let rahakott = 10;
 let tootehind = 5;
 if(rahakott,>= tooteHind) {
-   let rahakott = rahakott - tooteHind
-   
+  let rahakott = 30;
+  let rahakott = rahakott - tooteHind
+  rahakott += 10
 }
 console.log (rahakott)
+
+function summa() {
+    console.log(7+5)
+}
