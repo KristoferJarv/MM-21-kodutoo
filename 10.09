@@ -1,0 +1,22 @@
+string number boolean object   tüüp type
+
+if else conditional
+{
+
+}
+
+// Object on tüüp mis salvesta key-value paare.
+// key: value 
+let töötaja = {nimi: "Timo", palk: 10,}
+let töötaja = {
+  nimi: "Timo", 
+  palk: 10,
+}
+
+let rahakott = 10;
+let tootehind = 5;
+if(rahakott,>= tooteHind) {
+   let rahakott = rahakott - tooteHind
+   
+}
+console.log (rahakott)
