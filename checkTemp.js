@@ -87,6 +87,9 @@ function checkTemp (temp) {
 
   }
 
+
+let tulemus = checkTemp(5)
+
 checkTemp(5)
 checkTemp(15)
 checkTemp(30)
