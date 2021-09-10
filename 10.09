@@ -14,7 +14,20 @@ let töötaja = {nimi: "Timo", palk: 10,}
 let töötaja2 = {
   nimi: "Timo", 
   palk: 10,
+  rahakott: 0,
+  maksaPalka; function () {
+      this.rahakott += this.palk
+  },
+  muuda: 5,
 }
+
+console.log(töötaja2.nimi)
+console.log(töötaja2.rahakott)
+
+
+
+töötaja2.palk += 5
+töötaja2["palk"] += 5
 
 // skoop scope
 let rahakott = 10;
@@ -45,4 +58,27 @@ typeof(summa)
 // primative types:
 // number string boolean object function undefined 
 // user defined types:
-// math
+// Math 
+
+
+
+
+/*
+  Katlal on kolm temoperatuurivahemikku
+  0-20 on liiga külm
+  21-40 on paras temperatuur
+  41-60 on liiga kuum
+*/
+function checkTemp () {
+      let temp = 5;
+
+      if (temp < 0) {
+          console.log("Liiga Külm")
+      } else if (temp > 20 && temp <=40) {
+          console.log("paras temperatuur")
+
+      } else if (temp > 60) {
+        console.log ("liiga kuum")
+      }
+
+  }
