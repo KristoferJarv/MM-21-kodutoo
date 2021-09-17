@@ -22,3 +22,36 @@ let tahaTeada = prompt ("Mis kuu")
 let et = [1,2,3,4,5,6,7,8,9,10,11,12];
 console.log(et)
 console.log(et[tahaTeada]) 
+
+
+
+
+
+
+// for
+// while
+for (let number = 1; number <=100; number ++) {
+    console.log(number)
+}
+
+for (let x=1; x <=100; x++) {
+    console.log(x)
+}
+
+let x=1;
+while(x <= 100) {
+    console.log(x);
+    x++
+}
+
+
+let tööta=true;
+while(tööta) {
+    console.log(1);
+    console.log(new Date().getMinutes())
+    if(new Date().getMinutes() >= 27) {
+        tööta = false;
+
+    } 
+    Sleep(10)
+    }
