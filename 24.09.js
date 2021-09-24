@@ -4,8 +4,8 @@ Read
 Update
 Delete
 
-Array CRUD
-Create
+// Array CRUD (list, massiiv, array)
+// Create
 []
 ["test" ,2,3,null]
 console.log([])
@@ -34,8 +34,17 @@ fruits.includes("apple") // true
 list.filter(elem => elem > 0) // 2,3
 
 //update
-list.push("kiwi")
 
+// esimene number on positsioon/index
+// teine number on mitu ära kustutada
+// kolmas, neljas, viies jne on mida juurde lisada
+fruits.push("kiwi")
+fruits[4] = "mango"
+fruits.splice(2,0 "plum") // lisab kolmandaks elemendiks plum
+
+// delete
+fruits.pop()
+fruits.splice(2,1, "plum") /// kustudab kolmanda elemendi ära
 
 
 
