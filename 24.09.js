@@ -31,8 +31,11 @@ fruits.indexOf("mango") // 2
 fruits.includes("pear") // false
 fruits.includes("apple") // true
 
-
 list.filter(elem => elem > 0) // 2,3
+
+//update
+list.push("kiwi")
+
 
 
 
