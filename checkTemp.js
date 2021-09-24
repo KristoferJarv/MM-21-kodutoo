@@ -174,7 +174,7 @@ checkTemp
     console.log("liiga külm")
     return -1;
     } else if (temp <= 40) {
-    console.log("piisav")
+    console.log("paras temperatuur")
     return 0;
     } else {
     console.log("liiga kuum")
