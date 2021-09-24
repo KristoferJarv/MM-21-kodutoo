@@ -116,4 +116,68 @@ function kasJahutada(temp) {
     returntemp > 40
 }
 
-let kasJahutada = true;
+
+
+
+checkTemp
+  checkTemp(temp) {
+  
+    
+    
+    
+    if(temp<20){
+    console.Log("Liiga Külm");
+    return -1;
+    }if(temp>40){
+    console.Log("Liiga Kuum");
+    return +1;
+    }else if(temp>20 && temp <=40)
+    console.Log("Väga Hea")
+    return 0;
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  function checkTemp(temp) {
+
+  if ( temp >= 21 && temp <= 40 ) {
+    console.Log("Väga Hea")
+    return 0;
+
+  }  if ( temp > 0 && temp <= 20 ) {
+    console.Log("Liiga Külm");
+        return -1;
+      
+
+   }   else if ( temp > 40 && temp < 60)
+   console.Log("Liiga Kuum");
+   return 1;
+
+  
+  }
+
+
+
+
+  function checkTemp(temp) {
+    console.log(temp);
+    if (temp <= 20) {
+    console.log("liiga külm")
+    return -1;
+    } else if (temp <= 40) {
+    console.log("piisav")
+    return 0;
+    } else {
+    console.log("liiga kuum")
+    return 1;
+      }
+    }
