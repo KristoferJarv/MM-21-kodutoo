@@ -11,15 +11,17 @@ Create
 console.log([])
 let list = []
 let list = ["test" ,2,3,null]
-let fruits = ["orange" , "banana" , "apple"
+let fruits = ["mango" , "banana" , "apple"]
 // Read
 let list = [0] "test"
 let list = [1] 2
 let list = [2] 3
-let list = [3] null
-let list = [4] undefined 
-fruits.indexof ("pear") // -1
-fruits.includes("pear") // false
+let list = [3] 4
+let list = [4] 5
+fruits.indexOf ("banana") // -1
+fruits.indexOf("mango") // 2
+fruits.includes("apple") // false
+
 list.filter(elem => elem > 0) // 2,3
 
 
