@@ -4,3 +4,23 @@ Read
 Update
 Delete
 
+Array CRUD
+Create
+[]
+["test" ,2,3,null]
+console.log([])
+let list = []
+let list = ["test" ,2,3,null]
+let fruits = ["orange" , "banana" , "apple"
+// Read
+let list = [0] "test"
+let list = [1] 2
+let list = [2] 3
+let list = [3] null
+let list = [4] undefined 
+fruits.indexof ("pear") // -1
+fruits.includes("pear") // false
+list.filter(elem => elem > 0) // 2,3
+
+
+
