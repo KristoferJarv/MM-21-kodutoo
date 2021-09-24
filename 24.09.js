@@ -19,6 +19,11 @@ let list = [2] 3
 let list = [3] 4
 let list = [4] 5
 
+list.length // mitu elementi lists on
+// viimane element
+list  // undefined
+// eelviimane element
+list    // null
 
 // kuidas leida array sees element
 // indexof kus positsioonil element arrays on
@@ -42,9 +47,17 @@ fruits.push("kiwi")
 fruits[4] = "mango"
 fruits.splice(2,0 "plum") // lisab kolmandaks elemendiks plum
 
+
+
 // delete
 fruits.pop()
 fruits.splice(2,1, "plum") /// kustudab kolmanda elemendi ära
 
 
 
+fruits [4-2]
+'apple'
+a = 2
+2
+fruits[2]
+'apple'
